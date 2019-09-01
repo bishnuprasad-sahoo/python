@@ -2,7 +2,7 @@
 
 """ Wap to enter the digits and show them in character format using dictionary function """
 
-phone = input("Enter Phone Number : ")
+phone = int(input("Enter Phone Number : "))
 
 digits_mapping = {
     "0" : "zero",
